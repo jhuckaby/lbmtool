@@ -1,0 +1,30 @@
+{
+  "name": "lbmtool",
+  "version": "1.0.0",
+  "description": "Converts DeluxePaint LBMs to JSON or PNG format.",
+  "author": "Joseph Huckaby <jhuckaby@gmail.com>",
+  "homepage": "https://github.com/jhuckaby/lbmtool",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhuckaby/lbmtool"
+  },
+  "bugs": {
+    "url": "https://github.com/jhuckaby/lbmtool/issues"
+  },
+  "keywords": [
+    "lbm",
+    "ilbm",
+    "iff",
+    "8bit",
+    "deluxepaint"
+  ],
+  "dependencies": {
+    "pixl-cli": "^1.0.0",
+    "crc-32": "1.0.2",
+    "iff-parser": "jhuckaby/node-iff-parser"
+  },
+  "devDependencies": {}
+}
